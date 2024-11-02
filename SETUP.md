@@ -33,7 +33,19 @@ cd software-engineering-group24-25-14
    pip install -r backend/requirements.txt
    ```
 
-3. Run database migrations:
+3. Navigate to infra directory:
+
+   ```bash
+   cd infra
+   ```
+
+4. Start the PostgreSQL container:
+
+   ```bash
+   docker-compose up -d
+   ```
+
+5. Run database migrations:
 
    ```bash
    python backend/manage.py migrate
@@ -47,26 +59,12 @@ cd software-engineering-group24-25-14
    cd frontend
    ```
 
-2. Install the required Node.js packages:
+2. Install the required Node.js (v >14.x) packages:
 
    ```bash
    npm install
    # or
    yarn install
-   ```
-
-## Database Setup (PostgreSQL with Docker)
-
-1. Navigate back to the root directory:
-
-   ```bash
-   cd ..
-   ```
-
-2. Start the PostgreSQL container:
-
-   ```bash
-   docker-compose up -d
    ```
 
 ## Running the Application
