@@ -14,8 +14,8 @@ Follow these steps to get the repository up and running:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/software-engineering-group24-25-14.git
-cd software-engineering-group24-25-14
+git clone https://github.com/Jelahu/durhack24_4.git
+cd durhack24_4
 ```
 
 ## Backend Setup (Django)
